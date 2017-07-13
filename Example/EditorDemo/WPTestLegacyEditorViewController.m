@@ -169,4 +169,9 @@
     }
 }
 
+- (void)editorTrackStat:(WPEditorStat)stat
+{
+    
+}
+
 @end
