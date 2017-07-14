@@ -4,8 +4,8 @@
 @import AVFoundation;
 @import MobileCoreServices;
 #import <CocoaLumberjack/CocoaLumberjack.h>
-#import "WPEditorField.h"
-#import "WPEditorView.h"
+#import <WordPressEditor/WPEditorField.h>
+#import <WordPressEditor/WPEditorView.h>
 #import "WPImageMetaViewController.h"
 
 @interface WPViewController () <UINavigationControllerDelegate, UIImagePickerControllerDelegate, WPImageMetaViewControllerDelegate>

@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.prefix_header_file = "Classes/WordPress-iOS-Editor-Prefix.pch"
   s.exclude_files = 'Classes/exclude'
   s.requires_arc = true
-  s.dependency 'CocoaLumberjack', '~> 3.2.0'
+  s.dependency 'CocoaLumberjack'
   s.dependency 'NSObject-SafeExpectations', '~>0.0.2'
   s.header_dir = 'WordPressEditor'
 end

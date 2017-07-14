@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		205CB5D539904AE0BBF05210 /* Pods_EditorDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87F3C9B730B667AD34F62409 /* Pods_EditorDemo.framework */; };
+		114BCD5AEC433519976555C9 /* libPods-EditorDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D803C9C5107F5225EDC797E /* libPods-EditorDemoTests.a */; };
 		59F15AD219E45BB000CD8E33 /* WPEditorDemoLoggingConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F15AD119E45BB000CD8E33 /* WPEditorDemoLoggingConfiguration.m */; };
 		5D24FEF91A3C9E8B009E1932 /* WPImageMetaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D24FEF81A3C9E8B009E1932 /* WPImageMetaViewController.m */; };
 		74291D0A1940C859004230D4 /* content.html in Resources */ = {isa = PBXBuildFile; fileRef = 74291D091940C859004230D4 /* content.html */; };
@@ -28,7 +28,8 @@
 		748D2AB5193E516000D5ACC8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 748D2AB3193E516000D5ACC8 /* InfoPlist.strings */; };
 		748D2AB7193E516000D5ACC8 /* EditorDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 748D2AB6193E516000D5ACC8 /* EditorDemoTests.m */; };
 		74991B601BF10E7500AFA57B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74991B5F1BF10E7500AFA57B /* LaunchScreen.storyboard */; };
-		937D0DF30356183AAD52E84D /* Pods_EditorDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 933D5256E80DC41FBBD63D6B /* Pods_EditorDemoTests.framework */; };
+		7FC20DE31F186ACB001CD076 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FC20DE21F186ACB001CD076 /* Default-568h@2x.png */; };
+		F5AB8A33F0C8408A0279BD03 /* libPods-EditorDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13DE0ECCD46DAFB86427CF0F /* libPods-EditorDemo.a */; };
 		FFBC2B351CB85A5B00B0379E /* WPTestLegacyEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFBC2B341CB85A5B00B0379E /* WPTestLegacyEditorViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -44,10 +45,12 @@
 
 /* Begin PBXFileReference section */
 		0CC60190DC0B933B43A45745 /* Pods-EditorDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EditorDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EditorDemoTests/Pods-EditorDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		13DE0ECCD46DAFB86427CF0F /* libPods-EditorDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EditorDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		59F15AD019E45BB000CD8E33 /* WPEditorDemoLoggingConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPEditorDemoLoggingConfiguration.h; sourceTree = "<group>"; };
 		59F15AD119E45BB000CD8E33 /* WPEditorDemoLoggingConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPEditorDemoLoggingConfiguration.m; sourceTree = "<group>"; };
 		5D24FEF71A3C9E8B009E1932 /* WPImageMetaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPImageMetaViewController.h; sourceTree = "<group>"; };
 		5D24FEF81A3C9E8B009E1932 /* WPImageMetaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPImageMetaViewController.m; sourceTree = "<group>"; };
+		6D803C9C5107F5225EDC797E /* libPods-EditorDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EditorDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		74291D091940C859004230D4 /* content.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = content.html; sourceTree = "<group>"; };
 		74587C58193E652B0001052D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		748D2A85193E516000D5ACC8 /* EditorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EditorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -72,8 +75,7 @@
 		748D2AB6193E516000D5ACC8 /* EditorDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EditorDemoTests.m; sourceTree = "<group>"; };
 		74991B5F1BF10E7500AFA57B /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77B494065A856168EB29B907 /* Pods-EditorDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EditorDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EditorDemo/Pods-EditorDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		87F3C9B730B667AD34F62409 /* Pods_EditorDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EditorDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		933D5256E80DC41FBBD63D6B /* Pods_EditorDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EditorDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FC20DE21F186ACB001CD076 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		EAB1A70492509E50B817F0EC /* Pods-EditorDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EditorDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EditorDemoTests/Pods-EditorDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		F1364905ABF9E63116BBBD87 /* Pods-EditorDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EditorDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-EditorDemo/Pods-EditorDemo.release.xcconfig"; sourceTree = "<group>"; };
 		FFBC2B331CB85A5B00B0379E /* WPTestLegacyEditorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPTestLegacyEditorViewController.h; sourceTree = "<group>"; };
@@ -92,7 +94,7 @@
 				748D2A8B193E516000D5ACC8 /* CoreGraphics.framework in Frameworks */,
 				748D2A8D193E516000D5ACC8 /* UIKit.framework in Frameworks */,
 				748D2A89193E516000D5ACC8 /* Foundation.framework in Frameworks */,
-				205CB5D539904AE0BBF05210 /* Pods_EditorDemo.framework in Frameworks */,
+				F5AB8A33F0C8408A0279BD03 /* libPods-EditorDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,7 +105,7 @@
 				748D2AAB193E516000D5ACC8 /* XCTest.framework in Frameworks */,
 				748D2AAD193E516000D5ACC8 /* UIKit.framework in Frameworks */,
 				748D2AAC193E516000D5ACC8 /* Foundation.framework in Frameworks */,
-				937D0DF30356183AAD52E84D /* Pods_EditorDemoTests.framework in Frameworks */,
+				114BCD5AEC433519976555C9 /* libPods-EditorDemoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,6 +115,7 @@
 		748D2A7C193E516000D5ACC8 = {
 			isa = PBXGroup;
 			children = (
+				7FC20DE21F186ACB001CD076 /* Default-568h@2x.png */,
 				FFE317131C9C4D4B00430319 /* Podspec Metadata */,
 				748D2A8E193E516000D5ACC8 /* EditorDemo */,
 				748D2AB0193E516000D5ACC8 /* EditorDemoTests */,
@@ -139,8 +142,8 @@
 				748D2A8A193E516000D5ACC8 /* CoreGraphics.framework */,
 				748D2A8C193E516000D5ACC8 /* UIKit.framework */,
 				748D2AAA193E516000D5ACC8 /* XCTest.framework */,
-				87F3C9B730B667AD34F62409 /* Pods_EditorDemo.framework */,
-				933D5256E80DC41FBBD63D6B /* Pods_EditorDemoTests.framework */,
+				13DE0ECCD46DAFB86427CF0F /* libPods-EditorDemo.a */,
+				6D803C9C5107F5225EDC797E /* libPods-EditorDemoTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -309,6 +312,7 @@
 				748D2AA4193E516000D5ACC8 /* Images.xcassets in Resources */,
 				74991B601BF10E7500AFA57B /* LaunchScreen.storyboard in Resources */,
 				748D2A9C193E516000D5ACC8 /* Main_iPhone.storyboard in Resources */,
+				7FC20DE31F186ACB001CD076 /* Default-568h@2x.png in Resources */,
 				748D2A93193E516000D5ACC8 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -330,9 +334,119 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EditorDemo/Pods-EditorDemo-resources.sh",
+				"${PODS_ROOT}/../../Assets/icon-posts-editor-inspector.png",
+				"${PODS_ROOT}/../../Assets/icon-posts-editor-inspector@2x.png",
+				"${PODS_ROOT}/../../Assets/icon-posts-editor-inspector@3x.png",
+				"${PODS_ROOT}/../../Assets/icon-posts-editor-preview.png",
+				"${PODS_ROOT}/../../Assets/icon-posts-editor-preview@2x.png",
+				"${PODS_ROOT}/../../Assets/icon-posts-editor-preview@3x.png",
+				"${PODS_ROOT}/../../Assets/icon_format_bold.png",
+				"${PODS_ROOT}/../../Assets/icon_format_bold@2x.png",
+				"${PODS_ROOT}/../../Assets/icon_format_bold@3x.png",
+				"${PODS_ROOT}/../../Assets/icon_format_html.png",
+				"${PODS_ROOT}/../../Assets/icon_format_html@2x.png",
+				"${PODS_ROOT}/../../Assets/icon_format_html@3x.png",
+				"${PODS_ROOT}/../../Assets/icon_format_italic.png",
+				"${PODS_ROOT}/../../Assets/icon_format_italic@2x.png",
+				"${PODS_ROOT}/../../Assets/icon_format_italic@3x.png",
+				"${PODS_ROOT}/../../Assets/icon_format_keyboard.png",
+				"${PODS_ROOT}/../../Assets/icon_format_keyboard@2x.png",
+				"${PODS_ROOT}/../../Assets/icon_format_link.png",
+				"${PODS_ROOT}/../../Assets/icon_format_link@2x.png",
+				"${PODS_ROOT}/../../Assets/icon_format_link@3x.png",
+				"${PODS_ROOT}/../../Assets/icon_format_media.png",
+				"${PODS_ROOT}/../../Assets/icon_format_media@2x.png",
+				"${PODS_ROOT}/../../Assets/icon_format_media@3x.png",
+				"${PODS_ROOT}/../../Assets/icon_format_more.png",
+				"${PODS_ROOT}/../../Assets/icon_format_more@2x.png",
+				"${PODS_ROOT}/../../Assets/icon_format_more@3x.png",
+				"${PODS_ROOT}/../../Assets/icon_format_ol.png",
+				"${PODS_ROOT}/../../Assets/icon_format_ol@2x.png",
+				"${PODS_ROOT}/../../Assets/icon_format_ol@3x.png",
+				"${PODS_ROOT}/../../Assets/icon_format_quote.png",
+				"${PODS_ROOT}/../../Assets/icon_format_quote@2x.png",
+				"${PODS_ROOT}/../../Assets/icon_format_quote@3x.png",
+				"${PODS_ROOT}/../../Assets/icon_format_strikethrough.png",
+				"${PODS_ROOT}/../../Assets/icon_format_strikethrough@2x.png",
+				"${PODS_ROOT}/../../Assets/icon_format_strikethrough@3x.png",
+				"${PODS_ROOT}/../../Assets/icon_format_ul.png",
+				"${PODS_ROOT}/../../Assets/icon_format_ul@2x.png",
+				"${PODS_ROOT}/../../Assets/icon_format_ul@3x.png",
+				"${PODS_ROOT}/../../Assets/icon_format_underline.png",
+				"${PODS_ROOT}/../../Assets/icon_format_underline@2x.png",
+				"${PODS_ROOT}/../../Assets/icon_format_unlink.png",
+				"${PODS_ROOT}/../../Assets/icon_format_unlink@2x.png",
+				"${PODS_ROOT}/../../Assets/icon_options.png",
+				"${PODS_ROOT}/../../Assets/icon_options@2x.png",
+				"${PODS_ROOT}/../../Assets/icon_preview.png",
+				"${PODS_ROOT}/../../Assets/icon_preview@2x.png",
+				"${PODS_ROOT}/../../Assets/ZSSbgcolor.png",
+				"${PODS_ROOT}/../../Assets/ZSSbgcolor@2x.png",
+				"${PODS_ROOT}/../../Assets/ZSScenterjustify.png",
+				"${PODS_ROOT}/../../Assets/ZSScenterjustify@2x.png",
+				"${PODS_ROOT}/../../Assets/ZSSclearstyle.png",
+				"${PODS_ROOT}/../../Assets/ZSSclearstyle@2x.png",
+				"${PODS_ROOT}/../../Assets/ZSSforcejustify.png",
+				"${PODS_ROOT}/../../Assets/ZSSforcejustify@2x.png",
+				"${PODS_ROOT}/../../Assets/ZSSh1.png",
+				"${PODS_ROOT}/../../Assets/ZSSh1@2x.png",
+				"${PODS_ROOT}/../../Assets/ZSSh2.png",
+				"${PODS_ROOT}/../../Assets/ZSSh2@2x.png",
+				"${PODS_ROOT}/../../Assets/ZSSh3.png",
+				"${PODS_ROOT}/../../Assets/ZSSh3@2x.png",
+				"${PODS_ROOT}/../../Assets/ZSSh4.png",
+				"${PODS_ROOT}/../../Assets/ZSSh4@2x.png",
+				"${PODS_ROOT}/../../Assets/ZSSh5.png",
+				"${PODS_ROOT}/../../Assets/ZSSh5@2x.png",
+				"${PODS_ROOT}/../../Assets/ZSSh6.png",
+				"${PODS_ROOT}/../../Assets/ZSSh6@2x.png",
+				"${PODS_ROOT}/../../Assets/ZSShorizontalrule.png",
+				"${PODS_ROOT}/../../Assets/ZSShorizontalrule@2x.png",
+				"${PODS_ROOT}/../../Assets/ZSSindent.png",
+				"${PODS_ROOT}/../../Assets/ZSSindent@2x.png",
+				"${PODS_ROOT}/../../Assets/ZSSleftjustify.png",
+				"${PODS_ROOT}/../../Assets/ZSSleftjustify@2x.png",
+				"${PODS_ROOT}/../../Assets/ZSSoutdent.png",
+				"${PODS_ROOT}/../../Assets/ZSSoutdent@2x.png",
+				"${PODS_ROOT}/../../Assets/ZSSquicklink.png",
+				"${PODS_ROOT}/../../Assets/ZSSquicklink@2x.png",
+				"${PODS_ROOT}/../../Assets/ZSSredo.png",
+				"${PODS_ROOT}/../../Assets/ZSSredo@2x.png",
+				"${PODS_ROOT}/../../Assets/ZSSrightjustify.png",
+				"${PODS_ROOT}/../../Assets/ZSSrightjustify@2x.png",
+				"${PODS_ROOT}/../../Assets/ZSSsubscript.png",
+				"${PODS_ROOT}/../../Assets/ZSSsubscript@2x.png",
+				"${PODS_ROOT}/../../Assets/ZSSsuperscript.png",
+				"${PODS_ROOT}/../../Assets/ZSSsuperscript@2x.png",
+				"${PODS_ROOT}/../../Assets/ZSStextcolor.png",
+				"${PODS_ROOT}/../../Assets/ZSStextcolor@2x.png",
+				"${PODS_ROOT}/../../Assets/ZSSundo.png",
+				"${PODS_ROOT}/../../Assets/ZSSundo@2x.png",
+				"${PODS_ROOT}/../../Assets/editor.html",
+				"${PODS_ROOT}/../../Assets/jquery.js",
+				"${PODS_ROOT}/../../Assets/jquery.mobile-events.min.js",
+				"${PODS_ROOT}/../../Assets/js-beautifier.js",
+				"${PODS_ROOT}/../../Assets/rangy-classapplier.js",
+				"${PODS_ROOT}/../../Assets/rangy-core.js",
+				"${PODS_ROOT}/../../Assets/rangy-highlighter.js",
+				"${PODS_ROOT}/../../Assets/rangy-selectionsaverestore.js",
+				"${PODS_ROOT}/../../Assets/rangy-serializer.js",
+				"${PODS_ROOT}/../../Assets/rangy-textrange.js",
+				"${PODS_ROOT}/../../Assets/shortcode.js",
+				"${PODS_ROOT}/../../Assets/underscore-min.js",
+				"${PODS_ROOT}/../../Assets/WPHybridCallbacker.js",
+				"${PODS_ROOT}/../../Assets/WPHybridLogger.js",
+				"${PODS_ROOT}/../../Assets/wpload.js",
+				"${PODS_ROOT}/../../Assets/wpsave.js",
+				"${PODS_ROOT}/../../Assets/ZSSRichTextEditor.js",
+				"${PODS_ROOT}/../../Assets/wpposter.svg",
+				"${PODS_ROOT}/../../Assets/editor.css",
+				"${PODS_ROOT}/../../Assets/WPEditorFormatbarView.xib",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -533,7 +647,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -566,7 +680,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -586,6 +700,7 @@
 				INFOPLIST_FILE = "EditorDemo/EditorDemo-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = com.szy.EditorDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -603,6 +718,7 @@
 				INFOPLIST_FILE = "EditorDemo/EditorDemo-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = com.szy.EditorDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
